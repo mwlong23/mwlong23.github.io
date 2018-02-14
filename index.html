@@ -5,32 +5,163 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta name="google-site-verification" content="yYiAVDvHPdKcGlFzuVHQBV6sTQezA42r1N1rUjpicpM" />
+  <link rel="stylesheet" href="./css/styles.css">
   <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico" />
   <script src="./js/bootstrap.min.js"></script>
+  
   <title>Welcome!</title>
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <a class="navbar-brand" href="https://github.com/mwlong23">Navbar</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
     <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
+      <ul class="navbar-nav nav">
         <li class="nav-item active">
           <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Features</a>
+          <a class="nav-link" href="https://drive.google.com/file/d/1LKvQAxFg7_y02tB6TIAxcFmVgVjfJh1D/view?usp=sharing">Resume</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Pricing</a>
+          <a class="nav-link" href="">My Work</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Disabled</a>
+          <a class="nav-link" href="#">About Me</a>
+        </li>
+      </ul>
+    </div>
+    <div  id="navbarNav class="social-icon"">
+      <ul class="navbar-nav nav">
+        <li>
+          <a href="https://www.linkedin.com/in/mitchlong/"><img  id="linkedin-icon" src="./img/li-icon.png"></img></a>
+        </li>
+        <li class="social-icon">
+            <a src="https://github.com/mwlong23"><img  id="gh-icon" src="./img/gh.png"></img></a>
         </li>
       </ul>
     </div>
   </nav>
+  <!-- body -->
+  <div class="container">
+    <br>
+    <div class="profile-box">
+      <div class="row">
+        <div class="col-sm-7">
+          <img src="./img/profile2.jpg" alt="">
+        </div>
+        <div class="col-sm-5">
+          <h1 class="bio-title">Code Matters.</h1>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum nulla illo dolore, corporis earum adipisci amet quam ut. Mollitia obcaecati, modi eveniet fugit incidunt autem! Dicta aperiam ipsum nulla nihil!</p>
+          <h2>I'm Different</h2>
+        </div>
+      </div>
+      <br>
+      <div class="about-me">
+        <h1 >About Me</h1>
+      </div>
+      <div class="row">
+        <div class="col-sm-6">
+            <h3 class="bio-title">Past & Present</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum nulla illo dolore, corporis earum adipisci amet quam ut. Mollitia obcaecati, modi eveniet fugit incidunt autem! Dicta aperiam ipsum nulla nihil!</p>
+        </div>
+
+        <div class="col-sm-6">
+            <h3 class="bio-title">Whats Next.</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum nulla illo dolore, corporis earum adipisci amet quam ut. Mollitia obcaecati, modi eveniet fugit incidunt autem! Dicta aperiam ipsum nulla nihil!</p>
+        </div>
+      </div>
+    </div>
+    <br>
+    <!-- Projects -->
+    <h1 class="lang-header">Past Projects</h1>
+    <br>
+    <div class="projects-cards">
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Special title treatment</h5>
+                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Special title treatment</h5>
+                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    <br>
+    <!-- Experience -->
+    <div>
+      <h1 class="lang-header">Experience with</h1>
+      <br>
+      <br>
+      <div class="row">
+        <div class="col-sm-12 col-md-2 center-block lang-icon">
+          <a href="https://www.javascript.com/"><img src="./img/js.png" alt=""></a>
+        </div>
+        <div class="col-sm-12 col-md-2 center-block lang-icon">
+          <a href="https://www.ruby-lang.org/en/"><img src="./img/ruby.png" alt=""></a>
+        </div>
+        <div class="col-sm-12 col-md-2 center-block lang-icon">
+          <a href="https://www.typescriptlang.org/"><img src="./img/ts.png" alt=""></a>
+        </div>
+        <div class="col-sm-12 col-md-2 center-block lang-icon">
+          <a href="http://rubyonrails.org/"></a><img src="./img/rails.png" alt=""></a>
+        </div>
+        <div class="col-sm-12 col-md-2 center-block lang-icon">
+          <a href="https://angular.io/"><img src="./img/angular.png" alt=""></a>
+        </div>
+        <div class="col-sm-12 col-md-2 center-block lang-icon">
+          <a href="https://www.postgresql.org/"><img src="./img/postgres.png" alt=""></a>
+        </div>
+        <!-- <div class="col-sm-2 lang-icon">
+          <a href=""><img src="./img/ts.png" alt=""></a>
+        </div> -->
+      </div>
+      <br>
+      <h1 class="lang-header">Exploring</h1>
+      <div class="row">
+        <div class="col-sm-4">
+          <img src="./img/" alt="">
+        </div>
+        <div class="col-sm-4">
+          <img src="./img/" alt="">
+        </div>
+        <div class="col-sm-4">
+          <img src="./img/" alt="">
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact Me -->
+
+  </div>
+  <!-- footer -->
+  <footer class="bg-dark text-white mt-4">
+      <div class="container-fluid py-3">
+          <div class="row">
+              <div class="col-md-3">
+                  <h5>Footer</h5></div>
+              <div class="col-md-3"></div>
+              <div class="col-md-3"></div>
+              <div class="col-md-3"></div>
+          </div>
+          <div class="row">
+              <div class="col-md-6">I stay at the bottom of the viewport! <span class="small"><br>Unless the page content pushes me further.</span></div>
+              <div class="col-md-3"></div>
+              <div class="col-md-3 text-right small align-self-end">©2018 Mitchell Long</div>
+          </div>
+      </div>
+  </footer>
 </body>
 </html>
