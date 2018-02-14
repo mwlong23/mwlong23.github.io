@@ -1,0 +1,31 @@
+#linkedin-icon, #gh-icon{
+  height: 64px;
+ 
+}
+
+#gh-icon{
+  border-radius: 15px;
+  height: 64px;
+  
+}
+.navbar{
+  min-height: 80px;
+}
+
+.lang-icon img{
+  height: 64px;
+}
+
+.lang-header {
+  text-align: center;
+  border-width: 1px;
+  border-radius: 4px;
+}
+
+.about-me, .bio-title{
+  text-align:center;
+}
+
+.social-icon {
+ 
+}
